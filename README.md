@@ -105,8 +105,8 @@ npm run start
 
 To test functionality that requires authentication, use the following demo user:
 
-- **Email:** leker0000@stud.noroff.no  
-- **Password:** leker0000
+- **Email:** demo12345@stud.noroff.no  
+- **Password:** demo12345
 
 > This user is created for testing purposes only.
 
