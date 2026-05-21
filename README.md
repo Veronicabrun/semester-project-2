@@ -1,62 +1,32 @@
 # Semester Project 2 – Auction Website
+<img width="1400" height="694" alt="2025-12-26_00h51_47" src="https://github.com/user-attachments/assets/b6e5c1a1-fc6f-4dbc-9b2b-1a01cf8ff029" />
 
-##  Project Description
 
-This project is a part of the final delivery for the third semester at Noroff Front-End Development. The goal is to build a fully functional **auction website** using all the skills we've learned throughout the studies.
-
-The website allows users to create auctions, bid on others' listings, and manage their own profile. The application is built with a **modular file structure**, uses **SASS** for styling, and **Bootstrap 5** for responsive layout. Functionality such as **login**, **register**, **listing management**, **search**, and **user bidding history** are all included.
+A modern auction website where users can create listings, place bids and manage their own profile.
 
 ---
 
-##  Goal
+## Description
 
-> To create a modern auction website where users can register, log in, list items for auction, and place bids on other users’ items.
+This project was created as part of the Semester Project 2 assignment at Noroff Frontend Development.
 
----
+The goal of the project was to build a fully functional auction platform using modern frontend development practices and responsive design principles.
 
-##  Features
+The website allows users to:
 
--  Carousel on the front page with user's listings
--  "Show more" button to load more listings
--  Login, logout, and register modals (Bootstrap)
--  Credit score visible in the navbar
--  The user can search for listings on the front page.
--  Users can bid directly from auction cards
--  Clicking a card navigates to a detailed view:
-  - Edit listing (modal)
-  - Delete listing
-  - Place a bid
-  - See bid history with user, amount, and time
--  Profile page:
-  - Create new listing (modal)
-  - Update avatar and bio
-  - View all auctions the user has bid on
--  About page with information about the site
--  Contact page with a validated contact form
--  All create/edit/delete actions use modals
--  Uses `.env` for configuration
--  Unit testing with **Vitest**
--  E2E testing with **Playwright**
+- Register and log in
+- Create, edit and delete auction listings
+- Bid on other users’ listings
+- View bid history
+- Search through listings
+- Update avatar and profile information
+- View auctions they have bid on
+
+The project is built using a modular JavaScript structure, SASS for styling and Bootstrap 5 for responsive layouts.
 
 ---
 
-##  Tech Stack
-
-- HTML5
-- JavaScript (ES6 Modules)
-- [Bootstrap 5.3](https://getbootstrap.com/)
-- [SASS](https://sass-lang.com/)
-- [Vite](https://vitejs.dev/)
-- [Vitest](https://vitest.dev/)
-- [Playwright](https://playwright.dev/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Husky](https://typicode.github.io/husky/#/)
-- [Netlify](https://www.netlify.com/) for hosting
-
----
-
-##  User Stories
+## User Stories
 
 - A user with a `stud.noroff.no` email may register
 - A registered user may login and logout
@@ -69,46 +39,148 @@ The website allows users to create auctions, bid on others' listings, and manage
 
 ---
 
-##  Testing
+## Built With
 
-### Unit Tests
+- HTML5
+- JavaScript (ES6 Modules)
+- Bootstrap 5
+- SASS
+- Vite
+- Vitest
+- Playwright
+- ESLint
+- Prettier
+- Husky
+- Netlify
 
-- Run all unit tests:
+---
+
+## Getting Started
+
+### Installing
+
+Clone the repo:
+
+```bash
+git clone https://github.com/Veronicabrun/semester-project-2.git
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## Running
+
+To run the development server:
+
+```bash
+npm run dev
+```
+
+To compile SASS:
+
+```bash
+npm run build
+```
+
+To watch SASS changes:
+
+```bash
+npm run watch
+```
+
+To run the project locally:
+
+```bash
+npm run start
+```
+
+---
+
+## Testing
+
+Run unit tests:
+
 ```bash
 npm run test:unit
+```
 
-## E2E Tests
+Run E2E tests:
+
+```bash
 npm run test:e2e
+```
 
-### Project setup
+Run Playwright UI mode:
 
-## Clone repo:
-git clone https://github.com/Veronicabrun/semester-project-2.git
-cd semester-project-2
+```bash
+npm run test:e2e:ui
+```
 
-## Install dependencies:
-npm install
+Run Playwright headed mode:
 
-## Run development server:
-npm run dev
+```bash
+npm run test:e2e:headed
+```
 
-## Compile SCSS manually:
-npm run build
+---
 
-## Watch SCSS:
-npm run watch
+## Live Site
 
-## Run app locally (Live Server):
-npm run start
+🌐 Live Website:
 
-##  Test User Login
+INSERT_LIVE_SITE_LINK
 
-To test functionality that requires authentication, use the following demo user:
+---
 
-- **Email:** demo12345@stud.noroff.no  
-- **Password:** demo12345
+## Test User
 
-> This user is created for testing purposes only.
+To test functionality requiring authentication, use the following demo user:
+
+- Email:
+  demo12345@stud.noroff.no
+
+- Password:
+  demo12345
+
+> This user was created for testing purposes only.
+
+---
+
+## Contributing
+
+This project was created as part of a frontend development course at Noroff and is currently not open for contributions.
+
+If you would like to suggest improvements, feel free to fork the repository and create a pull request.
+
+---
+
+## Contact
+
+- GitHub:
+  https://github.com/Veronicabrun
+
+- LinkedIn:
+  https://www.linkedin.com/in/veronica-brun-pedersen-2860bb249/
+
+- Email:
+  vbpedersen@outlook.com
+
+---
+
+## Acknowledgments
+
+- Noroff Frontend Development
+- Bootstrap documentation
+- Vite documentation
+- Vitest documentation
+- Playwright documentation
+- Netlify documentation
+```
 
 
 
