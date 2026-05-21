@@ -131,9 +131,9 @@ npm run test:e2e:headed
 
 ## Live Site
 
-🌐 Live Website:
+Live Website:
 
-INSERT_LIVE_SITE_LINK
+
 
 ---
 
