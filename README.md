@@ -179,6 +179,7 @@ If you would like to suggest improvements, feel free to fork the repository and 
 - Vitest documentation
 - Playwright documentation
 - Netlify documentation
+- Images from Pexels
 ```
 
 
