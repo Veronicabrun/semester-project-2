@@ -131,9 +131,7 @@ npm run test:e2e:headed
 
 ## Live Site
 
-Live Website:
-
-https://nysemesterproject.netlify.app/
+https://semesterproject2vbp.netlify.app/
 
 ---
 
